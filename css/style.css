@@ -1,0 +1,46 @@
+
+
+/* ----------------------------------------------- 
+
+estilos para la página de animal favorito
+
+------------------------------------------------- */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+header{
+    background: url() center/cover;
+    min-height: 100vh;
+}
+
+/* flex ---------------------- */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancho30{
+    flex-basis: 30%;
+}
+
+.ancho50{
+    flex-basis: 50%
+}
+
+/* fin flex ---------------------- */
+
+
+
+
+.pie{
+    background-color: ;
+    text-align: center;
+    padding: 50px;
+}
