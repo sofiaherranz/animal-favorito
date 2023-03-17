@@ -17,12 +17,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <!-- encabezado -->
-    <header class="encabezado">
-        <div class="anchura">
+    <header class="encabezado ">
             <nav class="flex">
                 <h1 class="ancho50">El cuervo</h1>
                 <div class="ancho50"><img class="logo" src="img/logo-elcuervo-v2.png" alt="logotipo del el cuervo"></div>
@@ -32,28 +35,62 @@
                 <li> <a href="">arte</a>  </li>
                 <li> <a href="">contacto</a> </li>
             </ul>
-        </div>
+
     </header>
 
     <!-- main -->
     <main>
         <section class="info flex">
             <!-- columna1 -->
-            <div  class="ancho50 info-foto"><img src="img/cuervo-info.png" alt=""></div>
+            <div class="ancho50 info-foto"></div>
             <!-- columna2 -->
-            <div  class="ancho50">
+            <div  class="ancho50 info-texto">
                 <h2>ficha informativa</h2>
                 <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque!</q>
-                <ul>
-                    <li>Nombre científico</li>
-                    <li>Lugar</li>
-                    <li>Habitat</li>
-                    <li>Población</li>
-                </ul>
+                <div class="listainfo flex">
+                    <ul class="titulos ancho50">
+                        <li>Nombre científico</li>
+                        <li>Familia</li> 
+                        <li>Lugar</li> 
+                        <li>Habitat</li>
+                        <li>Alimentación</li>
+                    </ul>
+                    <ul class="respuesta ancho50">
+                        <li>Corvus corax</li>
+                        <li>Corvidae</li>
+                        <li>norte de Europa(Escandinavia e Islandia)</li>
+                        <li>Bosques boreales, acantilados y desiertos</li>
+                        <li>Carroña</li>                  
+                    </ul>
+                    </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut deleniti eius reiciendis corrupti unde vel dolorem molestias quasi necessitatibus, facilis consequatur eligendi laudantium libero nam, officiis at similique cupiditate debitis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed, enim quibusdam cupiditate earum blanditiis!</p>
                 <a href="">Más información</a>
             </div>
-             
+
+        </section>
+
+        <section class="info flex ">
+           
+            <!-- columna1 -->
+            <div  class="ancho50 info-texto">
+                <h2>Curiosidades</h2>
+                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque!</q>
+
+                <h3>La inteligencia, virtud del cuervo </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut deleniti eius reiciendis corrupti unde vel dolorem molestias quasi necessitatibus, facilis consequatur eligendi laudantium libero nam, officiis at similique cupiditate debitis?</p>
+                
+                <h3>La mitología nórdica y los cuervos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sed, enim quibusdam cupiditate earum blanditiis!</p>
+                <a href="">Saber más sobre la cinematografía</a>
+
+                <h3>El cuervo y su bello plumaje</h3>
+                <p> Plumaje negro, como el carbón, con brillos azules a la luz solar....Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sit accusamus illum culpa aliquid dignissimos quas deserunt magni velit eligendi.</p>
+
+            </div>
+
+            <!-- columna2 -->
+            <div class="ancho50 curiosidades-foto"></div>
         </section>
     </main>
 
@@ -61,6 +98,12 @@
     <!-- footer -->
     <footer class="pie">
         <p>&copy; Sofía Herranz</p>
+
+        <ul class="menu flex rrss">
+            <li> <a href=""><img class="logosrrss" src="img/instagram.png" alt=""></a> </li>
+            <li> <a href=""><img class="logosrrss"src="img/twitter.png" alt=""></a>  </li>
+            <li> <a href=""><img class="logosrrss"src="img/youtube.png" alt=""></a> </li>
+        </ul>
     </footer>
     
 </body>

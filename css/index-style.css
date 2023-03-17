@@ -7,3 +7,82 @@ index style
 */
 
 
+/* informacion */
+
+
+.info-foto {
+    background: url("../img/cuervo-info.png") center center/cover;
+    min-height: 800px;
+}
+.info-texto{
+    padding: 3em;
+}
+.info-texto h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.info-texto q{
+    font-size: 1.7em;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+
+.info .listainfo{
+    list-style-type: none;
+    padding: 20px 0;
+    
+}
+
+.titulos, .respuesta{
+    list-style-type: none;
+}
+
+.titulos{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3em;
+}
+.respuesta{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-family: 'EB Garamond', serif;
+
+}
+
+
+.info-texto p{
+    margin-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+}
+
+.info-texto a{
+    text-align: center;
+    display: block;
+    margin-top: 3em;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+.info-texto a:hover{
+    background-color: black;
+    border: 0px;
+   color: white;
+}
+
+.curiosidades-foto{
+    background: url("../img/curiosidades-info.png") center / cover;
+    min-height: 800px;
+
+}
