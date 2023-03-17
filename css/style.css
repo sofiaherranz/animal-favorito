@@ -60,9 +60,7 @@ nav div{
     display: flex;
     flex-direction: column;
 }
-.logosrrss{
-    width: 40px;
-}
+
 
 h1{
     font-size: 2.5em;
@@ -90,7 +88,27 @@ h1{
 
 /* footer */
 .pie{
-    background-color: ;
+    background-color:black ;
     text-align: center;
     padding: 50px;
+    color: white;
+}
+
+
+.pie p{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.rrss{
+    width: 200px;
+    align-items: center;
+}
+.logosrrss{
+    width: 30px;
+    display: inline;
+    justify-content:center;
+    margin-bottom: 30px;
 }
