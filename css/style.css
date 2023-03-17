@@ -5,7 +5,8 @@
 estilos para la página de animal favorito
 
 ------------------------------------------------- */
-
+/* font-family: 'Anton', sans-serif;
+ */
 
 *{
     box-sizing: border-box;
@@ -14,14 +15,15 @@ estilos para la página de animal favorito
 }
 
 header{
-    background: url() center/cover;
-    min-height: 100vh;
+    background: url("../img/animal-favorito-el-cuervo-header.png") center center/cover;
+    min-height: 70vh;
+    color: white;
 }
 
 /* flex ---------------------- */
 .flex{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -36,9 +38,47 @@ header{
 
 /* fin flex ---------------------- */
 
+nav{
+    padding: 20px 0px;
+    margin: 0 40px;
+    font-family: 'Anton', sans-serif;
+}
+nav div{
+    text-align: right;
+}
+.logo{
+    height: 80px;
+}
 
 
+h1{
+    font-size: 2em;
+}
+.encabezado a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 50px;
 
+
+    font-family: 'Anton', sans-serif;
+}
+.encabezado a:hover{
+    border: 1px solid white ;
+    border-radius: 25px;
+    font-family: 'Anton', sans-serif;
+}
+ ul{
+    width: 50%;
+    list-style-type: none;
+}
+
+/* informacion */
+.info-foto img{
+    width: 100%;
+}
+
+/* footer */
 .pie{
     background-color: ;
     text-align: center;
