@@ -7,36 +7,54 @@
 
      <!-- css -->
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/contacto-style.css">
+
+       <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+
 
     <title>Contacta con nosotros, los amigos del </title>
 </head>
 <body>
 
-    <!-- encabezado -->
-    <header class="encabezado">
-        <div class="anchura">
-            <nav>
-                <div><img src="" alt=""></div>
-                <ul class="menu">
-                    <li>home</li>
-                    <li>arte </li>
-                    <li>contacto</li>
-                </ul>
-            </nav>
-        </div>
+     <!-- encabezado -->
+     <header class="encabezado flex">
+        <h1 class="ancho100 h1Contacto"> Contacta con El cuervo</h1>
+        <p class="ancho100">¿Conoces más detalles sobre el cuervo? Escríbenos</p>
+        
+    
     </header>
+
+
+    <nav>
+        <ul class="menu flex">
+            <li><a href="index.html"><img class="logo" src="img/logo-elcuervo-v2.png" alt=""></a></li>
+            <li> <a href="index.html">home</a> </li>
+            <li> <a href="arte-.html">arte</a>  </li>
+            <li> <a href="contacto.html">contacto</a> </li>
+        </ul>
+    </nav>
+            
+    
 
     <!-- formulario -->
     <section>
         <div class="anchura">
             <form action="">
+                <h2>Desde El cuervo, estamos encantados de recibir nueva información de este precioso animal</h2>
+
                 <!-- nombre -->
                 <p class="campos">
-                    <label for="dato-usuario">
-                    <span class="asterisco">*</span>Nombre (de 2 a 15 caracteres):</label>
-                    <input type="text" name="dato-usuario" id="dato-usuario" 
-                    placeholder="Inserta tu nombre">
-                  </p>
+                    <label for="dato-usuario" >
+                    <span class="asterisco">*</span>Nombre </label>
+                    <input type="text" name="dato-usuario" id="dato-usuario" placeholder="Inserta tu nombre"></p>
 
                   <!-- Informacion -->
                   <p class="campos">
@@ -47,7 +65,7 @@
                   </p>
                   <!-- clausulas -->
                   <p class="campos"> 
-                    <input type="checkbox" name="dato_acepto_clausulas" id="dato_acepto_clausulas" value="1">
+                    <input class="clausulaclick" type="checkbox" name="dato_acepto_clausulas" id="dato_acepto_clausulas" value="1">
                     <label for="dato_acepto_clausulas">
                       <span class="asterisco">*</span>Acepto las clausulas de envío
                     </label>

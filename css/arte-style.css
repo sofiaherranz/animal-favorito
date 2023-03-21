@@ -50,10 +50,13 @@ h3{
     font-family: 'Anton', sans-serif;
     font-size:1.5em;
     letter-spacing: 2px;
+    margin-bottom: 30px;
 }
 section p{
     font-family: 'EB Garamond', serif;
     font-size: 1.3em;
+    margin-bottom: 20px;
+
 }
 
 section li{
@@ -64,16 +67,12 @@ section li{
     background-color: black;
     color: white;
 }
-.seccionvikingos img{
+
+.seccionvikingos img, .seccionhaikyuu img, .seccionhitchcock img{
     margin-top: 40px;
+    width: 500px;
+
 }
 
-blockquote{
-    font-family: 'EB Garamond', serif;
-    font-size: 1.3em;
-    font-weight: 600;
-    line-height: 1.3em;
-    width: 50%;
-    margin-top: 40px;
-   
-}
+
+
