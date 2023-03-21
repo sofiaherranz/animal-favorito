@@ -73,5 +73,6 @@ textarea{
 .envio:hover{
   background-color: black;
   color: white;
+  cursor: pointer;
 
 }
