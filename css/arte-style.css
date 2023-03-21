@@ -1,0 +1,35 @@
+
+/* estilos página arte */
+
+
+.encabezado .description{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ancho33{
+    flex-basis: 33%;
+}
+
+.galeria{
+    background-color: black;
+}
+
+.vikingos{
+    background: url("../img/ragnar-cuervo.png") center / cover;
+    min-height: 500px;
+}
+.vikingos:hover, .haikyuu:hover, .hitchcock:hover{
+    filter: brightness(30%);
+}
+.haikyuu{
+    background: url("../img/hinata-cuervo.png") center / cover;
+    min-height: 500px;
+}
+.hitchcock{
+    background: url("../img/Alfred-Hitchcock-Pajaros.jpg") center / cover;
+    min-height: 500px;
+}
+
+

@@ -79,7 +79,7 @@ index style
 
 }
 
-.info-texto a:hover{
+.info-texto a:hover, .encabezado a:hover{
     background-color: black;
     border: 0px;
    color: white;
