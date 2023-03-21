@@ -1,0 +1,5 @@
+user-agent:*
+
+Disallow:/area-animal-preferido.code-workspace
+
+sitemap: http://sofiaherranz.com/el-cuervo/sitemap.xml
