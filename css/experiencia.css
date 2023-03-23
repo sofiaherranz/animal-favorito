@@ -1,0 +1,9 @@
+.info-foto {
+    background: url("../img/hombre-cuervo1.jpg") center left /cover;
+    min-height: 800px;
+}
+
+.curiosidades-foto{
+    background: url("../img/niño-cuervo1.jpg") center / cover;
+    min-height: 800px;
+}
