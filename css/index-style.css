@@ -11,7 +11,7 @@ index style
 
 
 .info-foto {
-    background: url("../img/cuervo-info.png") center center/cover;
+    background: url("../img/cuervo-info.png") center left /cover;
     min-height: 800px;
 }
 .info-texto{

@@ -1,0 +1,71 @@
+
+
+
+/* ------------------------------------------------------------------
+MEDIAQUERIES PARA SITIO WEB CUERVO
+-------------------------------------------------------------------- */
+
+/* punto ruptura 1050 px */
+
+
+@media screen and (max-width:1450px) {
+
+    header{
+        min-height: 60vh;
+    }
+    h1{
+        font-size: 6em;
+    }
+    .info,.curiosidades{
+        flex-wrap: wrap;
+    }
+   .info-foto, .info-texto, .info-curiosidades, .curiosidades-foto{
+        flex-basis: 100%;
+   }
+
+   .info-texto, .info-curiosidades{
+    order: 1;
+   }
+
+   .info-foto, .curiosidades-foto{
+    order: 2;
+    min-height: 500px;
+   }
+   
+
+
+}
+
+
+@media screen and (max-width:720px) {
+    
+    h1{
+        margin-top: 1em;
+    }
+
+    .menu .logo{
+        height: 30px;
+    }
+    .menu a{
+        font-size:0.8em;
+    }
+    
+    .encabezado p{
+        padding: 3em;
+        text-align: center;
+    }
+    .encabezado p{
+        padding: 1em;
+    }
+    .encabezado .boton{
+        margin: 1em 0;
+        
+        font-size: 1.2em;
+    }
+    .info-texto h2{
+        font-size: 1.8em;
+    }
+    .curiosidades .info-curiosidades a, .info-texto a{
+        font-size: 1em;
+    }
+}
