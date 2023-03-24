@@ -76,3 +76,11 @@ textarea{
   cursor: pointer;
 
 }
+
+/* añadir  adjunto  */
+
+.adjuntar{
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 80%;
+} 
